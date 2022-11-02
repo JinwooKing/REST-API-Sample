@@ -16,7 +16,8 @@ namespace net_framework_sample
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            ConfigEx.ConstsInit();
+            //설정 정보 초기화
+            ConfigEx.ConfigExInit();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace net_framework_sample.Common
         private static StringBuilder UID = new StringBuilder();
         private static StringBuilder PWD = new StringBuilder();
 
-        public static void ConstsInit()
+        public static void ConfigExInit()
         {
             if (!File.Exists(iniFilePath))
                 File.Create(iniFilePath);
